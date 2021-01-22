@@ -1,7 +1,28 @@
-## Page for tracking numerous violations by University of London of its own written policies and agreements.
+# UOL violations tracker
 
-This page is maintained by students of UofL, Goldsmiths CIS and CC programs.
+## Page for tracking University of London violations of its own policies, agreements and common sense expectations.
 
-## WIP
+#### *Maintained by current students of UOL, Goldsmiths CIS and CC programs.*
+
+
+## Contents
+
+1. [About this page](#about-this-page)
+2. [List of cases](#list-of-cases)
+3. [How to contribute](#how-to-contribute)
+2. [Contact us](#contact-us)
+
+---
+
+### About this page
+
+
+### List of cases
+
+
+### How to contribute
+
+
+### Contact us
 
 

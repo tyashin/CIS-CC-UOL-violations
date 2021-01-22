@@ -7,10 +7,10 @@
 
 ## Contents
 
-1. [About this page](#about-this-page)
-2. [List of cases](#list-of-cases)
-3. [How to contribute](#how-to-contribute)
-2. [Contact us](#contact-us)
+- [About this page](#about-this-page)
+- [List of cases](#list-of-cases)
+- [How to contribute](#how-to-contribute)
+- [Contact us](#contact-us)
 
 ---
 
