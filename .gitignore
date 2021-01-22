@@ -9,7 +9,7 @@ yarn-error.log*
 # Frontend gitignore
 .DS_Store
 node_modules/
-dist/
+#dist/
 npm-debug.log
 npm-debug.log.*
 selenium-debug.log
