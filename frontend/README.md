@@ -1,4 +1,4 @@
-# frontend
+# UOL-violations-tracker
 
 ## Project setup
 ```

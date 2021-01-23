@@ -2,6 +2,7 @@
 .DS_Store
 .env.*.local
 .env.local
+.firebase
 .firebaserc
 .idea
 .vscode

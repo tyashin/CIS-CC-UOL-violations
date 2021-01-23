@@ -2,10 +2,10 @@
   <div>
     <v-list-item>
       <v-list-item-content>
-        <v-list-item-title class="title text-h6 font-weight-bold text-center error--text">
+        <v-list-item-title class="title text-h5 text-center error--text text--accent-1">
           UOL
         </v-list-item-title>
-        <v-list-item-subtitle class="text-subtitle-1 font-weight-bold text-center error--text">
+        <v-list-item-subtitle class="text-subtitle-1 text-center  error--text text--accent-1">
           violations tracker
         </v-list-item-subtitle>
       </v-list-item-content>
@@ -29,7 +29,9 @@
           <v-list-item-title>{{ link.text }}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
+
     </v-list>
+
   </div>
 </template>
 
@@ -37,13 +39,14 @@
 
 export default {
   name: 'Navbar',
+  components: {},
   data () {
     return {
       links: [
         { icon: 'mdi-information', text: 'About', route: '/' },
         { icon: 'mdi-view-dashboard', text: 'Kanban board', route: '/board' },
         { icon: 'mdi-clipboard-list', text: 'List of cases', route: '/cases' },
-        { icon: 'mdi-gift', text: 'Contribute', route: '/contribute' },
+        { icon: 'mdi-handshake', text: 'Contribute', route: '/contribute' },
         { icon: 'mdi-contacts', text: 'Contact us', route: '/contact' }
       ]
     }

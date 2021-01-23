@@ -34,7 +34,14 @@ const routes = [
     name: 'ContributeView',
     component: () => import('../views/ContributeView.vue'),
     meta: { title: 'How to contribute' }
+  },
+  {
+    path: '*',
+    name: 'Page404',
+    component: () => import('../views/Page404.vue'),
+    meta: { title: 'Page not found' }
   }
+
 ]
 
 const router = new VueRouter({
