@@ -1,9 +1,13 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify/lib/framework'
-import { preset } from 'vue-cli-plugin-vuetify-preset-reply/preset'
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 Vue.use(Vuetify)
 
 export default new Vuetify({
-  preset
+
+  icons: {
+    iconfont: 'mdiSvg' // default - only for display purposes
+  }
+
 })

@@ -1,31 +1,47 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../pages/Home.vue'
+import AboutView from '../views/AboutView.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
-    meta: { title: 'Violations tracker' }
+    name: 'AboutView',
+    component: AboutView,
+    meta: { title: 'About' }
+  },
+  {
+    path: '/board',
+    name: 'KanbanBoardView',
+    component: () => import('../views/KanbanBoardView.vue'),
+    meta: { title: 'Kanban board' }
+  },
+  {
+    path: '/cases',
+    name: 'CasesListView',
+    component: () => import('../views/CasesListView.vue'),
+    meta: { title: 'List of cases' }
+  },
+  {
+    path: '/contact',
+    name: 'ContactView',
+    component: () => import('../views/ContactView.vue'),
+    meta: { title: 'Contact us' }
+  },
+  {
+    path: '/contribute',
+    name: 'ContributeView',
+    component: () => import('../views/ContributeView.vue'),
+    meta: { title: 'How to contribute' }
   }
-  // {
-  //   path: '/about',
-  //   name: 'About',
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  // }
 ]
 
 const router = new VueRouter({
   routes
 })
 
-const DEFAULT_TITLE = 'Violations tracker'
+const DEFAULT_TITLE = 'UOL violations tracker'
 router.afterEach((to, from) => {
   document.title = to.meta.title || DEFAULT_TITLE
 })

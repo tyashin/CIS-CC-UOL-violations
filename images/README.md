@@ -1,6 +1,6 @@
 ### Images directory
 
-#### This directory is for storing image files (e.g. screenshots from chats and private forums, logos, etc.)
+#### This directory is for storing image files (e.g. screenshots from chats and private forums, etc.)
 
 Accepted file formats: PNG and JPEG. 
 
