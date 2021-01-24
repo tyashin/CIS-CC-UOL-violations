@@ -9,7 +9,7 @@
 
 - [About this page](#about-this-page)
 - [List of cases](#list-of-cases)
-- [How to contribute](#how-to-contribute)
+- [How to contribute](https://github.com/tyashin/CIS-CC-UOL-violations/blob/master/how_to.md)
 
 ---
 
@@ -142,11 +142,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 	**Status change date**: 18 December 2020  
 	
+	---
 	
-
-
-
-## How to contribute
-
-Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. In dictum non consectetur a erat nam. Amet purus gravida quis blandit turpis cursus in hac habitasse. Nulla posuere sollicitudin aliquam ultrices sagittis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Erat nam at lectus urna duis convallis. Orci dapibus ultrices in iaculis nunc sed augue. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Velit laoreet id donec ultrices tincidunt arcu non. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Accumsan lacus vel facilisis volutpat est velit egestas dui. Id aliquet lectus proin nibh nisl condimentum.
+	
 

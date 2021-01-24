@@ -69,7 +69,7 @@
         bottom
         color="tertiary"
         small
-        :href="`mailto:?subject=UOL violations tracker&amp;body=Checkout this page!<a href='${pageUrl}'>${pageUrl}</a>`"
+        :href="`mailto:?subject=UOL violations tracker&amp;body=Checkout this page:%20<a href='${pageUrl}'>${pageUrl}</a>`"
         target="_blank"
       >
         <v-icon>mdi-email</v-icon>
