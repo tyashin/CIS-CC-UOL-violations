@@ -11,11 +11,10 @@
         <v-btn
           fab
           bottom
-          x-small
-          color="red"
+          small
         >
           <v-icon v-if="dialShare">mdi-close</v-icon>
-          <v-icon v-else>mdi-share-variant</v-icon>
+          <v-icon v-else>mdi-share-variant-outline</v-icon>
         </v-btn>
       </template>
       <v-btn
@@ -23,7 +22,7 @@
         fab
         bottom
         color="blue darken-7"
-        x-small
+        small
         :href="`https://www.linkedin.com/shareArticle?mini=true&url=${pageUrl}`"
         target="_blank"
       >
@@ -34,7 +33,7 @@
         fab
         bottom
         color="blue"
-        x-small
+        small
         :href="`https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`"
         target="_blank"
       >
@@ -45,7 +44,7 @@
         fab
         bottom
         color="green"
-        x-small
+        small
         :href="`https://wa.me/?text=Checkout%20this%20page:%20${pageUrl}`"
         target="_blank"
       >
@@ -57,7 +56,7 @@
         fab
         bottom
         color="blue"
-        x-small
+        small
         :href="`https://telegram.me/share/url?url=${pageUrl}&text=Checkout this page!`"
         target="_blank"
       >
@@ -69,7 +68,7 @@
         fab
         bottom
         color="tertiary"
-        x-small
+        small
         :href="`mailto:?subject=UOL violations tracker&amp;body=Checkout this page!<a href='${pageUrl}'>${pageUrl}</a>`"
         target="_blank"
       >

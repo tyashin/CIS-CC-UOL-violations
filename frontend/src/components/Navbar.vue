@@ -2,10 +2,10 @@
   <div>
     <v-list-item>
       <v-list-item-content>
-        <v-list-item-title class="title text-h5 text-center error--text text--accent-1">
+        <v-list-item-title class="title text-h5 text-center red--text text--accent-2">
           UOL
         </v-list-item-title>
-        <v-list-item-subtitle class="text-subtitle-1 text-center  error--text text--accent-1">
+        <v-list-item-subtitle class="text-subtitle-1 text-center  red--text text--accent-2">
           violations tracker
         </v-list-item-subtitle>
       </v-list-item-content>
@@ -30,6 +30,20 @@
         </v-list-item-content>
       </v-list-item>
 
+      <v-list-item
+        target="_blank"
+        :href="'https://github.com/tyashin/CIS-CC-UOL-violations'"
+      >
+
+        <v-list-item-icon>
+          <v-icon>{{ "mdi-github" }}</v-icon>
+        </v-list-item-icon>
+
+        <v-list-item-content>
+          <v-list-item-title>{{ "GitHub page" }}</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
     </v-list>
 
   </div>
@@ -46,8 +60,7 @@ export default {
         { icon: 'mdi-information', text: 'About', route: '/' },
         { icon: 'mdi-view-dashboard', text: 'Kanban board', route: '/board' },
         { icon: 'mdi-clipboard-list', text: 'List of cases', route: '/cases' },
-        { icon: 'mdi-handshake', text: 'Contribute', route: '/contribute' },
-        { icon: 'mdi-contacts', text: 'Contact us', route: '/contact' }
+        { icon: 'mdi-handshake', text: 'Contribute', route: '/contribute' }
       ]
     }
   }

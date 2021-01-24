@@ -10,7 +10,6 @@
 - [About this page](#about-this-page)
 - [List of cases](#list-of-cases)
 - [How to contribute](#how-to-contribute)
-- [Contact us](#contact-us)
 
 ---
 
@@ -150,11 +149,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## How to contribute
 
 Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. In dictum non consectetur a erat nam. Amet purus gravida quis blandit turpis cursus in hac habitasse. Nulla posuere sollicitudin aliquam ultrices sagittis. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Erat nam at lectus urna duis convallis. Orci dapibus ultrices in iaculis nunc sed augue. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Velit laoreet id donec ultrices tincidunt arcu non. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Accumsan lacus vel facilisis volutpat est velit egestas dui. Id aliquet lectus proin nibh nisl condimentum.
-
-
-## Contact us
-Id aliquet risus feugiat in ante metus dictum at tempor. Morbi tincidunt ornare massa eget egestas. Massa tincidunt dui ut ornare lectus sit amet est. Aliquam vestibulum morbi blandit cursus risus at. Vestibulum lectus mauris ultrices eros in cursus. Sem nulla pharetra diam sit amet nisl suscipit. Leo in vitae turpis massa sed. 
-
-
-
 

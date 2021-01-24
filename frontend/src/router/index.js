@@ -24,12 +24,6 @@ const routes = [
     meta: { title: 'List of cases' }
   },
   {
-    path: '/contact',
-    name: 'ContactView',
-    component: () => import('../views/ContactView.vue'),
-    meta: { title: 'Contact us' }
-  },
-  {
     path: '/contribute',
     name: 'ContributeView',
     component: () => import('../views/ContributeView.vue'),

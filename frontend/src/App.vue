@@ -20,7 +20,9 @@
       <v-toolbar-title class="text-truncate">Tracing University of London violations of its own policies, agreements, etc.</v-toolbar-title>
 
       <v-spacer />
+
       <SocialShareButton />
+
     </v-app-bar>
 
     <v-main>

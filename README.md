@@ -10,7 +10,6 @@
 - [About this page](#about-this-page)
 - [List of cases](#list-of-cases)
 - [How to contribute](#how-to-contribute)
-- [Contact us](#contact-us)
 
 ---
 
@@ -21,8 +20,3 @@
 
 
 ### How to contribute
-
-
-### Contact us
-
-
