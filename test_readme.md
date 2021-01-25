@@ -2,7 +2,8 @@
 
 ### Page for tracking University of London violations of its own policies, agreements and common sense expectations.
 
-#### *Maintained by current students of UOL, Goldsmiths CIS and CC programs.*
+(*Maintained by current students of UOL, Goldsmiths CIS and CC programs.*)
+
 
 
 ## Contents
