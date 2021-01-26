@@ -9,7 +9,7 @@
 
 - [About this page](#about-this-page)
 - [List of cases](#list-of-cases)
-- [How to contribute](https://github.com/tyashin/CIS-CC-UOL-violations/blob/master/how_to.md)
+- [How to contribute (opens 'How-to' page)](https://github.com/tyashin/CIS-CC-UOL-violations/blob/master/how_to.md)
 
 ---
 

@@ -16,9 +16,9 @@
       <v-list-item
         v-for="link in links"
         :key="link.text"
+        :to="link.route"
         link
         router
-        :to="link.route"
       >
 
         <v-list-item-icon>
@@ -47,11 +47,13 @@
     </v-list>
 
     <v-btn
-      bottom
       absolute
       block
+      bottom
+      class="mb-n4"
       depressed
       href="mailto:uolviolationstracker@protonmail.com"
+      tile
     >
       <v-icon left>
         mdi-email-edit
@@ -70,8 +72,8 @@ export default {
     return {
       links: [
         { icon: 'mdi-information', text: 'About', route: '/' },
-        { icon: 'mdi-view-dashboard', text: 'Kanban board', route: '/board' },
         { icon: 'mdi-clipboard-list', text: 'List of cases', route: '/cases' },
+        { icon: 'mdi-view-dashboard', text: 'Kanban board', route: '/board' },
         { icon: 'mdi-handshake', text: 'How to contribute', route: '/contribute' }
       ]
     }

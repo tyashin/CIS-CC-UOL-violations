@@ -17,7 +17,7 @@
     >
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title class="text-truncate">Tracing University of London violations of its own policies, agreements, etc.</v-toolbar-title>
+      <v-toolbar-title class="text-truncate text-Subtitle-1">Tracing University of London violations of its own policies, agreements, etc.</v-toolbar-title>
 
       <v-spacer />
 
