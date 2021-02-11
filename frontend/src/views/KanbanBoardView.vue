@@ -12,6 +12,6 @@ export default {
   name: 'KanbanBoardView',
   components: {
 
-  }
-}
+  },
+};
 </script>

@@ -64,7 +64,8 @@
       </v-btn>
 
       <v-btn
-        :href="`mailto:?subject=UOL violations tracker&amp;body=Checkout this page:%20<a href='${pageUrl}'>${pageUrl}</a>`"
+        :href="`mailto:?subject=
+        UOL violations tracker&amp;body=Checkout this page:%20<a href='${pageUrl}'>${pageUrl}</a>`"
         bottom
         color="tertiary"
         dark
@@ -82,13 +83,13 @@
 export default {
   name: 'SocialShareButton',
 
-  data () {
+  data() {
     return {
       dialShare: false,
-      pageUrl: 'https://uolviolationstracker.web.app'
-    }
-  }
-}
+      pageUrl: 'https://uolviolationstracker.web.app',
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>

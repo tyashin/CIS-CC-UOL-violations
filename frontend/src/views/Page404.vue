@@ -19,9 +19,9 @@ export default {
   name: 'Page404',
   components: {
 
-  }
+  },
 
-}
+};
 </script>
 
 <style lang="scss" scoped>

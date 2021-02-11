@@ -1,17 +1,75 @@
 <template>
-  <div class="ContributeView">
-    <p>How to contribute</p>
+  <div class="contribute-view grey lighten-3">
+    <v-container fill-height>
+      <v-row
+        class="ma-4"
+        dense
+      >
+        <v-col
+        md="10"
+        sm="11"
+        xl="8"
+        xs="12">
+          <section v-if="howToMarkup == 'error'">
+             <p class="text-center text-h5">We're sorry, we're not able to retrieve this information
+                          at the moment, please try back later.</p>
+          </section>
+          <section v-else>
+            <v-sheet
+            elevation="2"
+            outlined
+            rounded>
+                <vue-markdown
+                :linkify="false"
+                :source = "howToMarkup"
+                class="contribute-view-markdown px-9 pt-3 pb-6"/>
+            </v-sheet>
+            </section>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
+
+import VueMarkdown from 'vue-markdown';
+import { mapState } from 'vuex';
 
 export default {
   name: 'ContributeView',
   components: {
+    VueMarkdown,
+
+  },
+  computed: {
+    ...mapState(['howToMarkup']),
+
+  },
+};
+</script>
+
+<style lang="scss" >
+  .contribute-view-markdown {
+
+    h2{
+      margin-top:25px;
+      margin-bottom:25px;
+    }
+
+    p {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    pre {
+      white-space: pre-wrap;
+    }
 
   }
-}
-</script>
+
+  .contribute-view {
+          height: 100%;
+        }
+
+</style>

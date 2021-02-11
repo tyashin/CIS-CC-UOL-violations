@@ -8,7 +8,7 @@
 export default {
   name: 'SingleCase',
 
-}
+};
 </script>
 
 <style lang="scss" scoped>

@@ -2,10 +2,12 @@
   <div>
     <v-list-item>
       <v-list-item-content>
-        <v-list-item-title class="title text-h5 text-center font-weight-bold red--text text--accent-2">
+        <v-list-item-title
+        class="title text-h5 text-center font-weight-bold red--text text--accent-2">
           UOL
         </v-list-item-title>
-        <v-list-item-subtitle class="text-subtitle-1 font-weight-bold text-center  red--text text--accent-2">
+        <v-list-item-subtitle
+        class="text-subtitle-1 font-weight-bold text-center  red--text text--accent-2">
           violations tracker
         </v-list-item-subtitle>
       </v-list-item-content>
@@ -68,17 +70,17 @@
 export default {
   name: 'Navbar',
   components: {},
-  data () {
+  data() {
     return {
       links: [
         { icon: 'mdi-information', text: 'About', route: '/' },
         { icon: 'mdi-clipboard-list', text: 'List of cases', route: '/cases' },
         { icon: 'mdi-view-dashboard', text: 'Kanban board', route: '/board' },
-        { icon: 'mdi-handshake', text: 'How to contribute', route: '/contribute' }
-      ]
-    }
-  }
-}
+        { icon: 'mdi-handshake', text: 'How to contribute', route: '/contribute' },
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
