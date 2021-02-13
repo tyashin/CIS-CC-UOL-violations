@@ -10,6 +10,7 @@
       <template v-slot:activator>
         <v-btn
           bottom
+          elevation="2"
           fab
           small
         >
@@ -22,6 +23,7 @@
         bottom
         color="blue darken-7"
         dark
+        elevation="2"
         fab
         small
         target="_blank"
@@ -33,6 +35,7 @@
         bottom
         color="blue"
         dark
+        elevation="2"
         fab
         small
         target="_blank"
@@ -44,6 +47,7 @@
         bottom
         color="green"
         dark
+        elevation="2"
         fab
         small
         target="_blank"
@@ -56,6 +60,7 @@
         bottom
         color="blue"
         dark
+        elevation="2"
         fab
         small
         target="_blank"
@@ -69,6 +74,7 @@
         bottom
         color="tertiary"
         dark
+        elevation="2"
         fab
         small
         target="_blank"

@@ -1,19 +1,23 @@
 <template>
+<div  class="page404-view  background-lite">
+    <v-container>
+      <v-row
+      >
+        <v-col
+        md="10"
+        sm="11"
+        xl="8"
+        xs="12">
 
-  <v-container fill-height>
-    <v-row
-      align="center"
-      justify="center"
-    >
-      <v-col>
         <p class="text-center text-h3">Error 404</p>
         <p class="text-center text-h4"> Page not found</p>
-      </v-col>
-    </v-row>
-  </v-container>
+
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
 
 </template>
-
 <script>
 export default {
   name: 'Page404',
@@ -25,4 +29,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.page404-view {
+          height: 100%;
+        }
+
 </style>

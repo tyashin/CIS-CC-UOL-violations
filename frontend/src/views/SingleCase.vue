@@ -1,6 +1,6 @@
 <template>
   <div>
-
+<p>Single case</p>
   </div>
 </template>
 

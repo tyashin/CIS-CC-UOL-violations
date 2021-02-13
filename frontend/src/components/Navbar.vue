@@ -1,13 +1,13 @@
 <template>
-  <div>
+  <div >
     <v-list-item>
       <v-list-item-content>
         <v-list-item-title
-        class="title text-h5 text-center font-weight-bold red--text text--accent-2">
+          class="title text-h5 text-center primary--text">
           UOL
         </v-list-item-title>
         <v-list-item-subtitle
-        class="text-subtitle-1 font-weight-bold text-center  red--text text--accent-2">
+        class="text-subtitle-1 font-weight-bold text-center primary--text">
           violations tracker
         </v-list-item-subtitle>
       </v-list-item-content>
@@ -21,6 +21,7 @@
         :to="link.route"
         link
         router
+
       >
 
         <v-list-item-icon>

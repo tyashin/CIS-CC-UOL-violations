@@ -1,39 +1,35 @@
 <template>
-  <div  class="about-view grey lighten-3">
-    <v-container
-    >
+  <div  class="about-view  background-lite">
+    <v-container>
       <v-row
       class="ma-4"
-      dense
-
-      >
+      dense>
         <v-col
         md="10"
         sm="11"
         xl="8"
         xs="12">
+
+          <v-progress-linear v-if="!aboutMarkup"
+            color="secondary"
+            indeterminate
+          ></v-progress-linear>
+
           <section v-if="aboutMarkup === 'error'">
               <p class="text-center text-h5">
                 We're sorry, we're not able to retrieve this information
                             at the moment, please try back later.</p>
           </section>
-          <section v-else-if="aboutMarkup === ''">
-            <v-skeleton-loader
-              :type="article"
-              class="mx-auto"
-            ></v-skeleton-loader>
-
-          </section>
           <section v-else>
             <v-sheet
-            elevation="2"
-            outlined
-            rounded>
+            elevation="3"
+            rounded
+            >
 
               <vue-markdown
               :linkify="false"
               :source = "aboutMarkup"
-              class="about-view-markdown  px-9 pt-3 pb-6"/>
+              class="about-view-markdown px-2 px-sm-3 px-md-9 pt-3 pb-6"/>
 
             </v-sheet>
           </section>
@@ -61,6 +57,7 @@ export default {
 </script>
 
 <style lang="scss">
+
   .about-view-markdown {
     h2{
         margin-top:25px;

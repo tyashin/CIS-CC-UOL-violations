@@ -1,15 +1,19 @@
 <template>
-  <div class="contribute-view grey lighten-3">
-    <v-container fill-height>
+  <div class="contribute-view  background-lite">
+    <v-container>
       <v-row
         class="ma-4"
-        dense
-      >
+        dense>
         <v-col
         md="10"
         sm="11"
         xl="8"
         xs="12">
+          <v-progress-linear v-if="!howToMarkup"
+            color="secondary"
+            indeterminate
+          ></v-progress-linear>
+
           <section v-if="howToMarkup == 'error'">
              <p class="text-center text-h5">We're sorry, we're not able to retrieve this information
                           at the moment, please try back later.</p>
@@ -17,12 +21,12 @@
           <section v-else>
             <v-sheet
             elevation="2"
-            outlined
-            rounded>
+            rounded
+            >
                 <vue-markdown
                 :linkify="false"
                 :source = "howToMarkup"
-                class="contribute-view-markdown px-9 pt-3 pb-6"/>
+                class="contribute-view-markdown  px-2 px-sm-3 px-md-9 pt-3 pb-6"/>
             </v-sheet>
             </section>
         </v-col>

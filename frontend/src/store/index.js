@@ -14,27 +14,27 @@ function parseCaseMarkup(rawCase, caseID) {
 
   // name field
   let position1 = rawCase.indexOf('**Date**');
-  newCase.name = `### ${rawCase.slice(0, position1).trim()}`;
+  newCase.name = rawCase.slice(0, position1).trim();
 
   // Date field
   let position2 = rawCase.indexOf('**Severity**');
-  newCase.date = rawCase.slice(position1, position2).trim();
+  newCase.date = rawCase.slice(position1, position2).replace('**Date**:', '').trim();
 
   // Severity field
   position1 = rawCase.indexOf('**Number of students affected**');
-  newCase.severity = rawCase.slice(position2, position1).trim();
+  newCase.severity = rawCase.slice(position2, position1).replace('**Severity**:', '').trim();
 
   // NumberOfStudents field
   position2 = rawCase.indexOf('**Description**');
-  newCase.numberOfStudents = rawCase.slice(position1, position2).trim();
+  newCase.numberOfStudents = rawCase.slice(position1, position2).replace('**Number of students affected**:', '').trim();
 
   // Description field
   position1 = rawCase.indexOf('**Kanban status**');
-  newCase.description = rawCase.slice(position2, position1).trim();
+  newCase.description = rawCase.slice(position2, position1).replace('**Description**:', '').trim();
 
   // Kanban status field
   position2 = rawCase.indexOf('**Status change date**');
-  newCase.kanbanStatus = rawCase.slice(position1, position2).trim();
+  newCase.status = rawCase.slice(position1, position2).replace('**Kanban status**:', '').trim();
 
   // Status change date field
   newCase.statusChangeDate = rawCase.slice(position2).replace('---', '').trim();
@@ -52,7 +52,7 @@ export default new Vuex.Store({
 
   },
   getters: {
-
+    // numOfCases: (state) => state.listOfcases.length,
   },
   mutations: {
     aboutMarkup: (state, payload) => {
@@ -94,7 +94,7 @@ export default new Vuex.Store({
         commit('listOfcases', casesArray);
       }).catch(() => {
         commit('aboutMarkup', 'error');
-        commit('listOfcases', []);
+        commit('listOfcases', 'error');
       });
 
       Vue.axios.get('https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/how_to.md').then((response) => {
