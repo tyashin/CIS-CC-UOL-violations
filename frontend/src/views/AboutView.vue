@@ -15,7 +15,7 @@
             indeterminate
           ></v-progress-linear>
 
-          <section v-if="aboutMarkup === 'error'">
+          <section v-if="dataError">
               <p class="text-center text-h5">
                 We're sorry, we're not able to retrieve this information
                             at the moment, please try back later.</p>
@@ -51,7 +51,7 @@ export default {
 
   },
   computed: {
-    ...mapState(['aboutMarkup']),
+    ...mapState(['aboutMarkup', 'dataError']),
   },
 };
 </script>
@@ -70,8 +70,8 @@ export default {
     }
   }
 
-  .about-view {
-          height: 100%;
-        }
+   .about-view {
+           height: 100%;
+         }
 
 </style>

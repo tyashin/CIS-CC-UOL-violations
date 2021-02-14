@@ -27,7 +27,7 @@ At about the same time, UOL started [BSc Computer Science](https://www.coursera.
 
 The new 2020-21 academic year has brought some new violations of UOL policies and agreements between the university and CIS/CC students (see list of cases). During the discussion of these matters at 'Student Cafe' forum [Dr. Maggie Cooper](https://www.gold.ac.uk/computing/people/cooper-maggie/), Programmes Director advised us to follow the official [complaint procedure](https://london.ac.uk/current-students/complaints-and-appeals-procedure).
 
-Being aware of the complaint procedure we at the same time are sceptical about the ability of this approach to resolve current situation (e.g. it was not enough to stop invasive online proctoring during previous exams). Since the complaint procedure is not very effective, **we decided to create this project as the public incentive for the university to straighten its course of action.**
+Being aware of the complaint procedure we at the same time are sceptical about the ability of this approach to resolve current situation (e.g. it was not enough to stop invasive online proctoring during previous exams). Since the complaint procedure is not very effective, ***we decided to create this project as the public incentive for the university to straighten its course of action.***
 
 We are planning to employ both official complaint procedure and this project pages (and, possibly, other approaches, too) in order to resolve the described problems.
 
@@ -50,7 +50,7 @@ We are planning to employ both official complaint procedure and this project pag
 
 ---
 
-### Maximum registration period decreased for some of the students.
+### Maximum registration period decreased for some of the students
 		
 **Date**: 10 September 2020  
 	

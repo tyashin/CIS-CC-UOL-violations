@@ -18,7 +18,14 @@ const routes = [
     meta: { title: 'Kanban board' },
   },
   {
-    path: '/cases',
+    path: '/single-case/:caseId',
+    name: 'SingleCaseView',
+    component: () => import('../views/SingleCaseView.vue'),
+    meta: { title: 'Case' },
+  },
+
+  {
+    path: '/list-of-cases',
     name: 'CasesListView',
     component: () => import('../views/CasesListView.vue'),
     meta: { title: 'List of cases' },

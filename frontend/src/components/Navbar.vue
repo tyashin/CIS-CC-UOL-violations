@@ -75,7 +75,7 @@ export default {
     return {
       links: [
         { icon: 'mdi-information', text: 'About', route: '/' },
-        { icon: 'mdi-clipboard-list', text: 'List of cases', route: '/cases' },
+        { icon: 'mdi-clipboard-list', text: 'List of cases', route: '/list-of-cases' },
         { icon: 'mdi-view-dashboard', text: 'Kanban board', route: '/board' },
         { icon: 'mdi-handshake', text: 'How to contribute', route: '/contribute' },
       ],

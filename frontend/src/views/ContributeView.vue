@@ -14,7 +14,7 @@
             indeterminate
           ></v-progress-linear>
 
-          <section v-if="howToMarkup == 'error'">
+          <section v-if="dataError">
              <p class="text-center text-h5">We're sorry, we're not able to retrieve this information
                           at the moment, please try back later.</p>
           </section>
@@ -47,7 +47,7 @@ export default {
 
   },
   computed: {
-    ...mapState(['howToMarkup']),
+    ...mapState(['howToMarkup', 'dataError']),
 
   },
 };

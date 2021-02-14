@@ -53,7 +53,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: 'Epiloge - Build your network in your field of interest',
+      title: '',
       meta: [
       ],
     };

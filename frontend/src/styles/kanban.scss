@@ -56,12 +56,12 @@ ul.drag-inner-list {
   padding: 10px;
   margin: 10px;
   max-height: 400px;
-  background: rgba(black, 0.4);
+  background: rgba(#24242b, 1);
   transition: $ease-out;
 
   &.is-moving {
-    transform: scale(1.5);
-    background: rgba(black, 0.8);
+    transform: scale(1.1);
+    background: rgba(#24242b, 0.8);
   }
 }
 

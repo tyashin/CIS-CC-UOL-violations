@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable global-require */
 /* eslint-disable no-param-reassign */
 import Vue from 'vue';
 import Vuex from 'vuex';
@@ -49,10 +47,14 @@ export default new Vuex.Store({
     aboutMarkup: '',
     howToMarkup: '',
     listOfcases: [],
+    dataError: false,
 
   },
   getters: {
-    // numOfCases: (state) => state.listOfcases.length,
+    getNumberOfCases: (state) => state.listOfcases.length,
+
+    getSingleCaseById: (state) => (caseId) => state.listOfcases[caseId - 1],
+
   },
   mutations: {
     aboutMarkup: (state, payload) => {
@@ -63,7 +65,7 @@ export default new Vuex.Store({
     },
     listOfcases: (state, payload) => {
       state.listOfcases = [...payload];
-      console.log(state.listOfcases);
+      // console.log(state.listOfcases);
     },
   },
   actions: {
@@ -77,7 +79,8 @@ export default new Vuex.Store({
         if (aboutMarkup) {
           commit('aboutMarkup', aboutMarkup);
         } else {
-          commit('aboutMarkup', 'error');
+          commit('dataError', true);
+          return;
         }
 
         // Parsing list of cases
@@ -93,8 +96,7 @@ export default new Vuex.Store({
 
         commit('listOfcases', casesArray);
       }).catch(() => {
-        commit('aboutMarkup', 'error');
-        commit('listOfcases', 'error');
+        commit('dataError', true);
       });
 
       Vue.axios.get('https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/how_to.md').then((response) => {
@@ -103,7 +105,7 @@ export default new Vuex.Store({
         const howtoSliced = howtoMarkup.slice(startPosition);
         commit('howToMarkup', howtoSliced);
       }).catch(() => {
-        commit('howToMarkup', 'error');
+        commit('dataError', true);
       });
     },
 
