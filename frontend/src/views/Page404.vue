@@ -1,9 +1,12 @@
 <template>
 <div  class="page404-view  background-lite">
-    <v-container>
+    <v-container fill-height fluid>
       <v-row
+      align="center"
+      justify="center"
       >
         <v-col
+
         md="10"
         sm="11"
         xl="8"

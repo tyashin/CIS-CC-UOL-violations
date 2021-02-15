@@ -1,6 +1,9 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import VueGtag from 'vue-gtag';
 import AboutView from '../views/AboutView.vue';
+// eslint-disable-next-line import/named
+// import store from '../store/index';
 
 Vue.use(VueRouter);
 
@@ -9,7 +12,6 @@ const routes = [
     path: '/',
     name: 'AboutView',
     component: AboutView,
-    meta: { title: 'About' },
   },
   {
     path: '/board',
@@ -22,6 +24,12 @@ const routes = [
     name: 'SingleCaseView',
     component: () => import('../views/SingleCaseView.vue'),
     meta: { title: 'Case' },
+    // beforeEnter(to, from, next) {
+    //   if (to.params.caseId > store.getters.getNumberOfCases) {
+    //     next({ name: 'Page404' });
+    //   }
+    //   next();
+    // },
   },
 
   {
@@ -48,6 +56,10 @@ const routes = [
 const router = new VueRouter({
   routes,
 });
+
+Vue.use(VueGtag, {
+  config: { id: '---hidden---' },
+}, router);
 
 const DEFAULT_TITLE = 'UOL violations tracker';
 // eslint-disable-next-line no-unused-vars

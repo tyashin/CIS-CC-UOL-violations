@@ -31,6 +31,7 @@
             </section>
         </v-col>
       </v-row>
+
     </v-container>
   </div>
 </template>
@@ -42,6 +43,7 @@ import { mapState } from 'vuex';
 
 export default {
   name: 'ContributeView',
+
   components: {
     VueMarkdown,
 

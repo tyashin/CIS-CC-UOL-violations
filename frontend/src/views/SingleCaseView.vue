@@ -2,7 +2,7 @@
  <div  class="single-case-view  background-lite">
     <v-container>
       <v-row
-      class="ma-4"
+      class="mt-4"
       dense>
         <v-col
         md="10"
@@ -10,7 +10,7 @@
         xl="8"
         xs="12">
 
-          <v-progress-linear v-if="getNumberOfCasess < caseId"
+          <v-progress-linear v-if="getNumberOfCases < caseId"
             color="secondary"
             indeterminate
           ></v-progress-linear>
@@ -24,13 +24,20 @@
             <v-sheet
             elevation="3"
             rounded
-            class="single-case-view-markdown px-2 px-sm-3 px-md-9 pt-3 pb-6"
+            class="single-case-view-markdown px-2 px-sm-3 px-md-9 pt-3 pb-5 mb-5"
             >
 
-              <vue-markdown
-              :linkify="false"
-              :source = "'## ' + getSingleCaseById.name"
-              />
+            <section v-if="false">
+              <router-link
+              :to="getSingleCaseRoute()" > This case page
+
+            </router-link>
+            </section>
+
+            <vue-markdown
+            :linkify="false"
+            :source = "'## ' + getSingleCaseById.name"
+            />
 
               <vue-markdown
               :linkify="false"
@@ -68,13 +75,14 @@ import VueMarkdown from 'vue-markdown';
 
 export default {
   name: 'SingleCaseView',
+
   components: {
     VueMarkdown,
 
   },
   data() {
     return {
-      caseId: this.$router.currentRoute.params.caseId,
+      caseId: null,
 
     };
   },
@@ -87,14 +95,22 @@ export default {
       return this.$store.getters.getSingleCaseById(this.caseId);
     },
   },
-
+  created() {
+    if (this.caseIdAsProp) {
+      this.caseId = this.caseIdAsProp;
+    } else {
+      this.caseId = this.$router.currentRoute.params.caseId;
+    }
+  },
   methods: {
-    getRawCase() {
-      return this.listOfcases[this.$router.currentRoute.params.caseId - 1].description;
+    getSingleCaseRoute() {
+      return { name: 'SingleCaseView', params: { caseId: this.caseIdAsProp } };
     },
+
   },
 
   props: {
+    caseIdAsProp: { type: Number },
 
   },
 
@@ -115,10 +131,9 @@ export default {
     }
   }
   .single-case-view {
-           height: 100%;
-         }
+     height: 100%;
 
-  .table{
+    .table{
     text-indent: initial;
     padding-top: 6px;
     padding-right: 13px;
@@ -148,5 +163,7 @@ export default {
     border-style: none;
 
         }
+
+  }
 
 </style>

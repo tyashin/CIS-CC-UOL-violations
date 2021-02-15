@@ -25,16 +25,24 @@
             elevation="3"
             rounded
             >
-
+            <div class="common-document-markdown px-2 px-sm-3 px-md-9 pt-3 pb-6">
               <vue-markdown
-              :linkify="false"
-              :source = "aboutMarkup"
-              class="about-view-markdown px-2 px-sm-3 px-md-9 pt-3 pb-6"/>
+                :linkify="false"
+                :source = "aboutMarkup"
+              />
+
+              <h2>Comments</h2>
+              <div class='comments'>
+              <Disqus />
+              </div>
+
+            </div>
 
             </v-sheet>
           </section>
         </v-col>
       </v-row>
+
     </v-container>
   </div>
 </template>
@@ -46,6 +54,16 @@ import { mapState } from 'vuex';
 
 export default {
   name: 'AboutView',
+
+  data() {
+    return {
+      pageConfig: {
+        title: 'University of London BSc Computer  science programs policies and agreements violations tracker',
+        identifier: '/',
+        url: 'https://uolviolationstracker.web.app',
+      },
+    };
+  },
   components: {
     VueMarkdown,
 
@@ -57,18 +75,6 @@ export default {
 </script>
 
 <style lang="scss">
-
-  .about-view-markdown {
-    h2{
-        margin-top:25px;
-        margin-bottom:25px;
-    }
-
-    p {
-      text-align: justify;
-      text-justify: inter-word;
-    }
-  }
 
    .about-view {
            height: 100%;

@@ -1,7 +1,10 @@
 <template>
   <div >
-    <v-list-item>
-      <v-list-item-content>
+    <v-list-item class="logo-item"
+    ripple
+    @click="routeToHomePage"
+      >
+      <v-list-item-content >
         <v-list-item-title
           class="title text-h5 text-center primary--text">
           UOL
@@ -33,8 +36,6 @@
         </v-list-item-content>
       </v-list-item>
 
-      <v-divider></v-divider>
-
       <v-list-item
         target="_blank"
         :href="'https://github.com/tyashin/CIS-CC-UOL-violations'"
@@ -47,22 +48,21 @@
           <v-list-item-title>GitHub page</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
+
+      <v-list-item
+        href="mailto:uolviolationstracker@protonmail.com"
+      >
+        <v-list-item-icon>
+          <v-icon>{{ "mdi-email-edit" }}</v-icon>
+        </v-list-item-icon>
+
+        <v-list-item-content>
+          <v-list-item-title>E-mail us</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
     </v-list>
 
-    <v-btn
-      absolute
-      block
-      bottom
-      class="mb-n4"
-      depressed
-      href="mailto:uolviolationstracker@protonmail.com"
-      tile
-    >
-      <v-icon left>
-        mdi-email-edit
-      </v-icon>
-      E-mail us
-    </v-btn>
   </div>
 </template>
 
@@ -71,6 +71,11 @@
 export default {
   name: 'Navbar',
   components: {},
+  methods: {
+    routeToHomePage() {
+      this.$router.push({ name: 'AboutView' });
+    },
+  },
   data() {
     return {
       links: [
@@ -85,4 +90,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .logo-item {
+      :hover {
+      cursor: pointer;
+    }}
 </style>

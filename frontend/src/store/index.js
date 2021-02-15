@@ -41,7 +41,8 @@ function parseCaseMarkup(rawCase, caseID) {
   // ...
 }
 
-export default new Vuex.Store({
+// eslint-disable-next-line no-unused-vars
+const store = new Vuex.Store({
   state: {
 
     aboutMarkup: '',
@@ -111,3 +112,4 @@ export default new Vuex.Store({
 
   },
 });
+export default store;

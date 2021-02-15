@@ -16,6 +16,7 @@ const options = {
         quinary: '#B15DFF',
         senary: '#72DEFF',
         'background-lite': '#41414c',
+        'drawer-background': '#33333d',
       },
     },
   },
@@ -23,6 +24,7 @@ const options = {
 };
 
 export default new Vuetify({
+  theme: { dark: true },
 
   icons: {
     iconfont: 'mdiSvg',

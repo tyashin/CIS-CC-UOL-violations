@@ -1,57 +1,77 @@
 <template>
   <div class="cases-list-view background-lite">
-    <v-container>
-      <v-row
-      class="ma-4"
-      dense>
-        <v-col
-        md="10"
-        sm="11"
-        xl="8"
-        xs="12">
+    <v-row
+      class="pt-6"
+      >
+      <section v-if="dataError">
+        <p class="text-center text-h5">
+            We're sorry, we're not able to retrieve this information
+                        at the moment, please try back later.</p>
+      </section>
+      <section v-else-if="getNumberOfCases == 0">
+        <v-progress-linear
+          color="secondary"
+          indeterminate
+        ></v-progress-linear>
+      </section>
+    </v-row>
 
-          <v-pagination
-            v-model="page"
-            :length="4"
+    <section class="mb-12" v-if="getNumberOfCases">
+      <SingleCaseView
+        :caseIdAsProp=this.currentPage
+        :key="this.currentPage"
+      >
+      </SingleCaseView>
+    </section>
 
-          ></v-pagination>
-          <v-progress-linear v-if="true"
-            color="secondary"
-            indeterminate
-          ></v-progress-linear>
-          <section v-if="aboutMarkup === 'error'">
-              <p class="text-center text-h5">
-                We're sorry, we're not able to retrieve this information
-                            at the moment, please try back later.</p>
-          </section>
-          <section v-else>
-            <v-sheet
-            elevation="2"
-            rounded
-            >
+    <v-bottom-navigation fixed
+      background-color='background-lite'
+    >
+      <v-pagination class="bottomPagination pt-1"
+        v-model="currentPage"
+        :length="getNumberOfCases"
+        next-icon="mdi-menu-right"
+        prev-icon="mdi-menu-left"
+        total-visible=7
+        @input="handlePageChange"
+      ></v-pagination>
 
-              <vue-markdown
-              :linkify="false"
-              :source = "aboutMarkup"
-              class="about-view-markdown px-2 px-sm-3 px-md-9 pt-3 pb-6"/>
-
-            </v-sheet>
-          </section>
-
-        </v-col>
-      </v-row>
-    </v-container>
-
+    </v-bottom-navigation>
   </div>
 </template>
 
 <script>
+import { mapState, mapGetters } from 'vuex';
+import SingleCaseView from './SingleCaseView.vue';
 
 export default {
   name: 'CasesListView',
+  data() {
+    return {
+      currentPage: 1,
+    };
+  },
   components: {
+    SingleCaseView,
 
   },
+  created() {
+
+  },
+  methods: {
+    handlePageChange(newPage) {
+      this.currentPage = newPage;
+    },
+
+  },
+
+  computed: {
+
+    ...mapState(['dataError']),
+    ...mapGetters(['getNumberOfCases']),
+
+  },
+
 };
 </script>
 

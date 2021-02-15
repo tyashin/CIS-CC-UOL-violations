@@ -15,7 +15,7 @@
 
 
 ## About this project
-*Last updated: February 11, 2021*
+*Last updated: February 15, 2021*
 
 This project is maintained by current students of Goldsmiths, University of London [BSc 'Computing and information systems'](https://web.archive.org/web/20191101125948/https://london.ac.uk/courses/computing-and-information-systems) and [BSc 'Creative computing'](https://web.archive.org/web/20190506192952/https://london.ac.uk/courses/creative-computing)  international online programs (CIS/CC, for short). We are tracing university administration violations of their own policies, agreements and common sense expectations.
 
@@ -25,7 +25,7 @@ This situation changed radically in 2020. Rapid deterioration of CIS/CC programs
 
 At about the same time, UOL started [BSc Computer Science](https://www.coursera.org/degrees/bachelor-of-science-computer-science-london) program at Coursera. This new program is approx. 2x times more expensive than CIS/CC. Remaining CIS/CC students were advised to switch to the new program. They were given 1 week to figure everything out, get the answers from the UOL and make a decision about their further education.
 
-The new 2020-21 academic year has brought some new violations of UOL policies and agreements between the university and CIS/CC students (see list of cases). During the discussion of these matters at 'Student Cafe' forum [Dr. Maggie Cooper](https://www.gold.ac.uk/computing/people/cooper-maggie/), Programmes Director advised us to follow the official [complaint procedure](https://london.ac.uk/current-students/complaints-and-appeals-procedure).
+The new 2020-21 academic year has brought some new violations of UOL policies and agreements between the university and CIS/CC students [see list of cases](https://uolviolationstracker.web.app/#/list-of-cases). During the discussion of these matters at 'Student Cafe' forum [Dr. Maggie Cooper](https://www.gold.ac.uk/computing/people/cooper-maggie/), Programmes Director advised us to follow the official [complaint procedure](https://london.ac.uk/current-students/complaints-and-appeals-procedure).
 
 Being aware of the complaint procedure we at the same time are sceptical about the ability of this approach to resolve current situation (e.g. it was not enough to stop invasive online proctoring during previous exams). Since the complaint procedure is not very effective, ***we decided to create this project as the public incentive for the university to straighten its course of action.***
 
