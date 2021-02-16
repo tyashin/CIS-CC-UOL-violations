@@ -83,8 +83,4 @@ export default {
     font-size: 14px;
 }
 
-.adsbox{
-  display: none;
-}
-
 </style>

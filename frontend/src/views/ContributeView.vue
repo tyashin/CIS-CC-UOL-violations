@@ -27,8 +27,31 @@
                 :linkify="false"
                 :source = "howToMarkup"
                 class="contribute-view-markdown  px-2 px-sm-3 px-md-9 pt-3 pb-6"/>
+
             </v-sheet>
             </section>
+        </v-col>
+      </v-row>
+      <v-row
+        class="mb-4 mx-4"
+        dense>
+        <v-col
+        md="10"
+        sm="11"
+        xl="8"
+        xs="12">
+        <v-sheet
+            elevation="2"
+            rounded
+            >
+            <div class="common-document-markdown px-2 px-sm-3 px-md-9 pt-2 pb-6">
+                  <h2>Comments</h2>
+                  <div class='comments'>
+                    <fast-comments-vue
+                    :config="{tenantId: '---hidden---', urlId: 'fastcomments:/contribute'}" />
+                  </div>
+            </div>
+        </v-sheet>
         </v-col>
       </v-row>
 
@@ -40,12 +63,14 @@
 
 import VueMarkdown from 'vue-markdown';
 import { mapState } from 'vuex';
+import FastCommentsVue from 'fastcomments-vue';
 
 export default {
   name: 'ContributeView',
 
   components: {
     VueMarkdown,
+    FastCommentsVue,
 
   },
   computed: {

@@ -59,17 +59,40 @@
               :linkify="false"
               :source = "getSingleCaseById.description"
               />
-
             </v-sheet>
           </section>
         </v-col>
       </v-row>
+      <v-row
+        class="mb-4"
+        dense>
+        <v-col
+        md="10"
+        sm="11"
+        xl="8"
+        xs="12">
+        <v-sheet
+            elevation="2"
+            rounded
+            >
+            <div class="common-document-markdown px-2 px-sm-3 px-md-9 pt-1 pb-6">
+                  <h2>Comments</h2>
+                  <div class='comments'>
+                    <fast-comments-vue
+                :config="{tenantId: '---hidden---', urlId: 'fastcomments:/single-case/'+ caseId}" />
+                  </div>
+            </div>
+        </v-sheet>
+        </v-col>
+      </v-row>
+
     </v-container>
   </div>
 </template>
 
 <script>
 import { mapState, mapGetters } from 'vuex';
+import FastCommentsVue from 'fastcomments-vue';
 
 import VueMarkdown from 'vue-markdown';
 
@@ -78,6 +101,7 @@ export default {
 
   components: {
     VueMarkdown,
+    FastCommentsVue,
 
   },
   data() {

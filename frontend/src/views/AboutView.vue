@@ -30,19 +30,34 @@
                 :linkify="false"
                 :source = "aboutMarkup"
               />
-
-              <h2>Comments</h2>
-              <div class='comments'>
-              <Disqus />
-              </div>
-
             </div>
 
             </v-sheet>
           </section>
         </v-col>
       </v-row>
-
+      <v-row
+        class="mb-4 mx-4"
+        dense>
+        <v-col
+        md="10"
+        sm="11"
+        xl="8"
+        xs="12">
+        <v-sheet
+            elevation="2"
+            rounded
+            >
+            <div class="common-document-markdown px-2 px-sm-3 px-md-9 pt-2 pb-6">
+                  <h2>Comments</h2>
+                  <div class='comments'>
+                    <fast-comments-vue
+                    :config="{tenantId: '---hidden---', urlId: 'fastcomments:/'}" />
+                  </div>
+            </div>
+        </v-sheet>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
@@ -51,21 +66,14 @@
 
 import VueMarkdown from 'vue-markdown';
 import { mapState } from 'vuex';
+import FastCommentsVue from 'fastcomments-vue';
 
 export default {
   name: 'AboutView',
 
-  data() {
-    return {
-      pageConfig: {
-        title: 'University of London BSc Computer  science programs policies and agreements violations tracker',
-        identifier: '/',
-        url: 'https://uolviolationstracker.web.app',
-      },
-    };
-  },
   components: {
     VueMarkdown,
+    FastCommentsVue,
 
   },
   computed: {

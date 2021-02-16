@@ -3,15 +3,10 @@ import axios from 'axios';
 import VueAxios from 'vue-axios';
 import VueMeta from 'vue-meta';
 import vueKanban from 'vue-kanban';
-import VueDisqus from 'vue-disqus';
 import App from './App.vue';
 import router from './router';
 import store from './store';
 import vuetify from './plugins/vuetify';
-
-Vue.use(VueDisqus, {
-  shortname: '---hidden---',
-});
 
 Vue.use(vueKanban);
 Vue.use(VueMeta);
