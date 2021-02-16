@@ -27,7 +27,7 @@
             class="single-case-view-markdown px-2 px-sm-3 px-md-9 pt-3 pb-5 mb-5"
             >
 
-            <section v-if="false">
+            <section v-if="caseIdAsProp">
               <router-link
               :to="getSingleCaseRoute()" > This case page
 
