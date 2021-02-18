@@ -28,48 +28,61 @@
             class="single-case-view-markdown px-2 px-sm-3 px-md-9 pt-3 pb-5 mb-5"
             >
 
-            <section v-if="caseIdAsProp">
-              <router-link
-              :to="getSingleCaseRoute()" > This case page
+            <v-container>
+              <v-row dense justify='space-between'>
+                <v-col >
+                  <section v-if="caseIdAsProp">
+                    <router-link
+                    :to="getSingleCaseRoute()" > This case page
+                    </router-link>
+                  </section>
+                </v-col>
+                <v-spacer></v-spacer>
+                <v-col >
+                  <v-chip v-if="getSingleCaseById.status == 'Resolved'"
+                    class="resolved-chip"
+                    :ripple="false"
+                    label
+                    small
 
-            </router-link>
-            </section>
+                    color="white"
+                    outlined
+                    >
+                    <v-icon left>
+                      mdi-check
+                    </v-icon>
+
+                    Resolved
+                  </v-chip>
+                </v-col>
+              </v-row>
+            </v-container>
 
             <vue-markdown
             :linkify="false"
             :source = "'## ' + getSingleCaseById.name"
             />
 
-              <vue-markdown
-              :linkify="false"
-              :source = "'**Date**: <nbsp/> ' +  getSingleCaseById.date"
-              />
-
-              <vue-markdown
-              :linkify="false"
-              :source = "'**Severity**: <nbsp/> ' +  getSingleCaseById.severity"
-              />
-
-              <vue-markdown
-              :linkify="false"
-              :source = "'**Number of students affected**: <nbsp/> '
-              +  getSingleCaseById.numberOfStudents"
-              />
-              <!-- <vue-markdown
-              :linkify="false"
-              :source = "'**Kanban board status**: <nbsp/> '
-              +  getSingleCaseById.status"
-              />
+            <vue-markdown
+            :linkify="false"
+            :source = "'**Date**: <nbsp/> ' +  getSingleCaseById.date"
+            />
 
             <vue-markdown
-              :linkify="false"
-              :source = "getSingleCaseById.statusChangeDate"
-              /> -->
+            :linkify="false"
+            :source = "'**Severity**: <nbsp/> ' +  getSingleCaseById.severity"
+            />
 
-             <vue-markdown
-              :linkify="false"
-              :source = "getSingleCaseById.description"
-              />
+            <vue-markdown
+            :linkify="false"
+            :source = "'**Number of students affected**: <nbsp/> '
+            +  getSingleCaseById.numberOfStudents"
+            />
+
+            <vue-markdown
+            :linkify="false"
+            :source = "getSingleCaseById.description"
+            />
 
             </v-sheet>
           </section>
@@ -199,6 +212,10 @@ export default {
     border-style: none;
 
         }
+
+  .resolved-chip {
+  float: right;
+}
 
   }
 
