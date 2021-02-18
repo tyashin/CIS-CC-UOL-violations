@@ -24,10 +24,11 @@
             <v-sheet
             elevation="3"
             rounded
+            min-height="500"
             class="single-case-view-markdown px-2 px-sm-3 px-md-9 pt-3 pb-5 mb-5"
             >
 
-            <section v-if="false">
+            <section v-if="caseIdAsProp">
               <router-link
               :to="getSingleCaseRoute()" > This case page
 
@@ -54,11 +55,22 @@
               :source = "'**Number of students affected**: <nbsp/> '
               +  getSingleCaseById.numberOfStudents"
               />
+              <!-- <vue-markdown
+              :linkify="false"
+              :source = "'**Kanban board status**: <nbsp/> '
+              +  getSingleCaseById.status"
+              />
+
+            <vue-markdown
+              :linkify="false"
+              :source = "getSingleCaseById.statusChangeDate"
+              /> -->
 
              <vue-markdown
               :linkify="false"
               :source = "getSingleCaseById.description"
               />
+
             </v-sheet>
           </section>
         </v-col>
@@ -75,11 +87,11 @@
             elevation="2"
             rounded
             >
-            <div class="common-document-markdown px-2 px-sm-3 px-md-9 pt-1 pb-6">
+            <div class="common-document-markdown px-2 px-sm-3 px-md-9 pt-1 mb-4 pb-6">
                   <h2>Comments</h2>
                   <div class='comments'>
                     <fast-comments-vue
-                :config="{tenantId: '---hidden---', urlId: 'fastcomments:/single-case/'+ caseId}" />
+              :config="{tenantId: '----hidden---', urlId: 'fastcomments:/single-case/'+ caseId}" />
                   </div>
             </div>
         </v-sheet>
@@ -161,7 +173,7 @@ export default {
     text-indent: initial;
     padding-top: 6px;
     padding-right: 13px;
-    padding-bottom: 6px;
+    margin-bottom: 15px;
     padding-left: 13px;
     border-spacing: 0;
     border-collapse: collapse;

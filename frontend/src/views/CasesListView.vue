@@ -24,10 +24,12 @@
       </SingleCaseView>
     </section>
 
-    <v-bottom-navigation fixed
-      background-color='background-lite'
+    <v-bottom-navigation
+    fixed
+    height="74"
+    background-color='background-lite'
     >
-      <v-pagination class="bottomPagination pt-1"
+      <v-pagination class="bottomPagination pt-4"
         v-model="currentPage"
         :length="getNumberOfCases"
         next-icon="mdi-menu-right"

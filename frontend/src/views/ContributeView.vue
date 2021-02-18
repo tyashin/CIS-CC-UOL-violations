@@ -48,7 +48,7 @@
                   <h2>Comments</h2>
                   <div class='comments'>
                     <fast-comments-vue
-                    :config="{tenantId: '---hidden---', urlId: 'fastcomments:/contribute'}" />
+                      :config="{tenantId: '----hidden---', urlId: 'fastcomments:/contribute'}" />
                   </div>
             </div>
         </v-sheet>
