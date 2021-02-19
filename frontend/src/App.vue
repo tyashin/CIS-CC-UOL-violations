@@ -52,12 +52,12 @@ export default {
     this.$store.dispatch('loadMarkup');
   },
   metaInfo: {
-    title: 'University of London BSc Computer science programs policies violations tracker',
+    title: 'University of London BSc computer science programs policies violations tracker',
     name: 'UOL violations tracker',
     meta: [
       { name: 'charset', content: 'utf-8' },
-      { name: 'description', content: 'Reviewing University of London Computer science programs policies violations.Only objective info. Comment and contribute your experiences.' },
-      { name: 'keywords', content: 'University of London, reviews, BSc in Computer science, university unfair treatment, policies and agreements violations' },
+      { name: 'description', content: 'Reviewing University of London computer science programs policies violations. Only objective info. Comment and contribute your experiences.' },
+      { name: 'keywords', content: 'University of London reviews, BSc in computing and informations systems, BSc in creative computing, university unfair treatment, policies and agreements violations' },
     ],
   },
 };

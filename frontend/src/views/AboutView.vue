@@ -52,7 +52,7 @@
                   <h2>Comments</h2>
                   <div class='comments'>
                     <fast-comments-vue
-                    :config="{tenantId: '----hidden---', urlId: 'fastcomments:/'}" />
+                    :config="{tenantId: '---hidden---', urlId: 'fastcomments:/'}" />
                   </div>
             </div>
         </v-sheet>

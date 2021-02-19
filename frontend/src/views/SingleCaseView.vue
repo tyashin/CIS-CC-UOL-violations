@@ -43,10 +43,9 @@
                     class="resolved-chip"
                     :ripple="false"
                     label
-                    small
-
                     color="white"
                     outlined
+
                     >
                     <v-icon left>
                       mdi-check
@@ -104,7 +103,7 @@
                   <h2>Comments</h2>
                   <div class='comments'>
                     <fast-comments-vue
-              :config="{tenantId: '----hidden---', urlId: 'fastcomments:/single-case/'+ caseId}" />
+              :config="{tenantId: '---hidden---', urlId: 'fastcomments:/single-case/'+ caseId}" />
                   </div>
             </div>
         </v-sheet>
