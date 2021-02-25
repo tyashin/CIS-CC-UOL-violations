@@ -42,13 +42,12 @@
                   <v-chip v-if="getSingleCaseById.status == 'Resolved'"
                     class="resolved-chip"
                     :ripple="false"
-                    label
-                    color="white"
-                    outlined
+
+                    color="transparent"
 
                     >
                     <v-icon left>
-                      mdi-check
+                       mdi-label-variant-outline
                     </v-icon>
 
                     Resolved

@@ -52,7 +52,7 @@ We have a unified format for writing down violation info (i.e. violation card) t
 	**Description**: <Detailed description> 
 	(please, provide proof links wherever possible)
 	
-	**Kanban status**: <Backlog/Analysis/Official complaint/Online petition/Resolved> 
+	**Kanban status**: <Backlog/Official complaint/Online petition/Closed/Resolved> 
 	(refers to life cycle of a violation and also positions it on Kanban board)
 	
 	**Status change date**: <Date in a DD MMMM YYYY format> 

@@ -99,7 +99,7 @@ export default {
   },
   data() {
     return {
-      stages: ['Backlog', 'Analysis', 'Official complaint', 'Online petition', 'Resolved'],
+      stages: ['Backlog', 'Official complaint', 'Online petition', 'Closed', 'Resolved'],
       showHint: false,
       severityColor: {
         High: 'pink darken-4',
