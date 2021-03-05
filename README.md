@@ -111,7 +111,7 @@ This is a mitigating circumstance by definition:
 
 Being asked if the students could treat this as a mitigating circumstance and, therefore, hand over their courseworks later, Dr. Maggie Cooper refused to count it as a mit.circ.
 
-Students have filled at least one [complaint letter](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/complaints/UOL_Complaint_Letter_01-29-2021.pdf), although, the result of this is unknown at the moment.
+Students have filled at least one [complaint letter](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/complaints/UOL_Complaint_Letter_01-29-2021.pdf), although, the result of this is unknown at the moment (as of March 5, 2021, the complaint letter is still unanswered).
 
 
 **Kanban status**: Official complaint  	
