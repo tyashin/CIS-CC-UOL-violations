@@ -1,6 +1,6 @@
 ### Complaints directory
 
-#### This directory is for storing copies of the official complaints that were addressed to UOL.
+#### This directory is for storing copies of the official complaints that were addressed to UOL and the answers for those complaints.
 
 Accepted file formats: PDF and HTML. 
 

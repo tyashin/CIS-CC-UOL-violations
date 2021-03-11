@@ -15,7 +15,7 @@
 
 
 ## About this project
-*Last updated: February 18, 2021*
+*Site last updated: March 11, 2021*
 
 This project is maintained by current students of Goldsmiths, University of London [BSc 'Computing and information systems'](https://web.archive.org/web/20191101125948/https://london.ac.uk/courses/computing-and-information-systems) and [BSc 'Creative computing'](https://web.archive.org/web/20190506192952/https://london.ac.uk/courses/creative-computing)  international online programs (CIS/CC, for short). We are tracing university administration violations of their own policies, agreements and common sense expectations.
 
@@ -111,7 +111,7 @@ This is a mitigating circumstance by definition:
 
 Being asked if the students could treat this as a mitigating circumstance and, therefore, hand over their courseworks later, Dr. Maggie Cooper refused to count it as a mit.circ.
 
-Students have filled at least one [complaint letter](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/complaints/UOL_Complaint_Letter_01-29-2021.pdf), although, the result of this is unknown at the moment (as of March 5, 2021, the complaint letter is still unanswered).
+January 29, 2021 students have filled at least one [complaint letter](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/complaints/UOL_Complaint_Letter_01-29-2021.pdf). March 10, 2021 (1.5 months later) UOL [responded](https://github.com/tyashin/CIS-CC-UOL-violations/blob/master/complaints/Complaint_Letter_response_10-03-2021.pdf) to this complaint, once again stating that all of its actions were justified and necessitated.
 
 
 **Kanban status**: Official complaint  	
