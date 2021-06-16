@@ -15,7 +15,7 @@
 
 
 ## About this project
-*Site last updated: March 11, 2021*
+*Site last updated: June 16, 2021*
 
 This project is maintained by current students of Goldsmiths, University of London [BSc 'Computing and information systems'](https://web.archive.org/web/20191101125948/https://london.ac.uk/courses/computing-and-information-systems) and [BSc 'Creative computing'](https://web.archive.org/web/20190506192952/https://london.ac.uk/courses/creative-computing)  international online programs (CIS/CC, for short). We are tracing university administration violations of their own policies, agreements and common sense expectations.
 
@@ -30,6 +30,8 @@ The new 2020-21 academic year has brought some new violations of UOL policies an
 Being aware of the complaint procedure we at the same time are sceptical about the ability of this approach to resolve current situation (e.g. it was not enough to stop invasive online proctoring during previous exams). Since the complaint procedure is not very effective, ***we decided to create this project as the public incentive for the university to straighten its course of action.***
 
 We are planning to employ both official complaint procedure and this project pages (and, possibly, other approaches, too) in order to resolve the described problems.
+
+Update from June 2021: During the 2020-21 academic year the situation got even worse. UOL refused to discuss or fix any of violations described on these pages and also introduced a few new ones. At this point there's hardly single aspect of CIS/CC programs left that is not seriously flawed or even broken.
 
 
 ## List of cases
@@ -104,7 +106,7 @@ Being asked about the explicit marking scheme for this new reduced type of cours
 
 > Examiners will be expecting less detail, proportionate to the reduction in time available, not partially-completed submissions. Note that we have also adjusted coursework where detailed work is required. 
 
-it was already too late, in our opinion, as the students should have been in the middle of their work by then. Also, it could be proved that at least some of the assignments (CO2226 coursework) were not adjusted according to reduced time available.
+it was already too late, in our opinion, as the students should have been in the middle of their work by then. Also, it could be proved that at least some of the assignments (CO2226 coursework) were not adjusted according to reduced time available. After the interim grades for Coursework 1 were published in March 2021 it became clear that at least [some of the grades were also not adjusted](https://uolviolationstracker.web.app/#/single-case/6).
 
 This is a mitigating circumstance by definition: 
 > Mitigating circumstances are any serious circumstances beyond your control which may have adversely affected your academic performance. (General regulations, p.17 ([official link](https://london.ac.uk/sites/default/files/regulations/progregs-general-2020-2021.pdf) / [mirror](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/progregs-general-2020-2021.pdf)) 
@@ -124,7 +126,7 @@ January 29, 2021 students have filled at least one [complaint letter](https://ra
 		
 **Date**: n/a 
 	
-**Severity**: Medium
+**Severity**: High
 
 **Number of students affected**: 300+
 	
@@ -169,11 +171,13 @@ Here's the complete list of course materials' years of publication:
 		
 **Date**: n/a  
 	
-**Severity**: Medium
+**Severity**: High
 
 **Number of students affected**: n/a (probably, half of the students)
 	
 **Description**: Among CIS/CC students UOL is notoriously known for its slow reaction to student's inquiries and official forum questions. While it is not usually the case, sometimes students have to wait for weeks before their inquiry is being handled properly or their questions being answered.
+
+Update from June 2021: Actually, during the 2020-21 academic year the situation got even worse. Now some of the inquiries are not handled for a few months.
 
 **Kanban status**: Backlog  	
 
