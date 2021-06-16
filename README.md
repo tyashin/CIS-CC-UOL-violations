@@ -10,6 +10,10 @@
 	- [2020-21 academic year coursework assignments were published too late without delaying the deadlines](#2020-21-academic-year-coursework-assignments-were-published-too-late-without-delaying-the-deadlines) 
 	- [Most of the study materials are obsolete](#most-of-the-study-materials-are-obsolete) 
 	- [University slow response to students' questions/inquiries](#university-slow-response-to-students-questionsinquiries) 
+	- [Some grades for coursework 1/2021 were not adjusted](#some-grades-for-coursework-12021-were-not-adjusted) 
+	- [Lack of feedback on courseworks and exams](#lack-of-feedback-on-courseworks-and-exams) 
+	- [Unreliable IT infrastructure](#unreliable-it-infrastructure) 
+
 
 - [How to contribute (will open 'How-to' page)](https://github.com/tyashin/CIS-CC-UOL-violations/blob/master/how_to.md)
 
@@ -31,7 +35,7 @@ Being aware of the complaint procedure we at the same time are sceptical about t
 
 We are planning to employ both official complaint procedure and this project pages (and, possibly, other approaches, too) in order to resolve the described problems.
 
-Update from June 2021: During the 2020-21 academic year the situation got even worse. UOL refused to discuss or fix any of violations described on these pages and also introduced a few new ones. At this point there's hardly single aspect of CIS/CC programs left that is not seriously flawed or even broken.
+**Update from June 2021**: during the 2020-21 academic year the situation got even worse. UOL refused to discuss or fix any of violations described on these pages and also introduced a few new ones. At this point there's hardly single aspect of CIS/CC programs left that is not seriously flawed or even broken. Also, I have to mention that some cases were left outside the scope of this project just because there's no bulletproof documentary evidence to support them (but that doesn't mean that students were not affected by those cases)
 
 
 ## List of cases
@@ -181,7 +185,57 @@ Update from June 2021: Actually, during the 2020-21 academic year the situation 
 
 **Kanban status**: Backlog  	
 
-**Status change date**: 01 February 2021 
+**Status change date**: 01 February 2021  
+
+--- 
+	
+### Some grades for coursework 1/2021 were not adjusted
+		
+**Date**: 27 March 2021  
+	
+**Severity**: Medium  
+
+**Number of students affected**: 5+  
+	
+**Description**: work in progress   
+
+	
+**Kanban status**: Backlog  
+	
+**Status change date**: 16 June 2021  
 
 ---
+
+### Lack of feedback on courseworks and exams
+		
+**Date**: n/a  
 	
+**Severity**: High
+
+**Number of students affected**: all the students  
+	
+**Description**: work in progress   
+
+	
+**Kanban status**: Backlog  	
+	
+**Status change date**: 16 June 2021  
+
+---
+
+### Unreliable IT infrastructure
+		
+**Date**: 2021
+	
+**Severity**: High  
+
+**Number of students affected**: 10+  
+	
+**Description**: work in progress   
+
+	
+**Kanban status**: Backlog  
+	
+**Status change date**: 16 June 2021  
+
+---
