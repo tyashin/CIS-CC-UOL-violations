@@ -197,8 +197,7 @@ Update from June 2021: Actually, during the 2020-21 academic year the situation 
 
 **Number of students affected**: 5+  
 	
-**Description**: work in progress   
-
+**Description**: work in progress 
 	
 **Kanban status**: Backlog  
 	
@@ -216,7 +215,6 @@ Update from June 2021: Actually, during the 2020-21 academic year the situation 
 	
 **Description**: work in progress   
 
-	
 **Kanban status**: Backlog  	
 	
 **Status change date**: 16 June 2021  
