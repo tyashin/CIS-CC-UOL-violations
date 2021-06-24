@@ -12,14 +12,14 @@
 	- [University slow response to students' questions/inquiries](#university-slow-response-to-students-questionsinquiries) 
 	- [Some grades for coursework 1/2021 were not adjusted](#some-grades-for-coursework-12021-were-not-adjusted) 
 	- [Lack of feedback on courseworks and exams](#lack-of-feedback-on-courseworks-and-exams) 
-	- [Unreliable IT infrastructure](#unreliable-it-infrastructure) 
+	- [Unreliable UOL software infrastructure](#unreliable-uol-software-infrastructure) 
 
 
 - [How to contribute (will open 'How-to' page)](https://github.com/tyashin/CIS-CC-UOL-violations/blob/master/how_to.md)
 
 
 ## About this project
-*Site last updated: June 16, 2021*
+*Site last updated: June 24, 2021*
 
 This project is maintained by current students of Goldsmiths, University of London [BSc 'Computing and information systems'](https://web.archive.org/web/20191101125948/https://london.ac.uk/courses/computing-and-information-systems) and [BSc 'Creative computing'](https://web.archive.org/web/20190506192952/https://london.ac.uk/courses/creative-computing)  international online programs (CIS/CC, for short). We are tracing university administration violations of their own policies, agreements and common sense expectations.
 
@@ -35,7 +35,7 @@ Being aware of the complaint procedure we at the same time are sceptical about t
 
 We are planning to employ both official complaint procedure and this project pages (and, possibly, other approaches, too) in order to resolve the described problems.
 
-**Update from June 2021**: during the 2020-21 academic year the situation got even worse. UOL refused to discuss or fix any of violations described on these pages and also introduced a few new ones. At this point there's hardly single aspect of CIS/CC programs left that is not seriously flawed or even broken. Also, I have to mention that some cases were left outside the scope of this project just because there's no bulletproof documentary evidence to support them (but that doesn't mean that students were not affected by those cases)
+**Update from June 2021**: during the 2020-21 academic year the situation got even worse. UOL refused to discuss or fix any of violations described on these pages and also introduced a few new ones. At this point there's hardly single aspect of CIS/CC programs left that is not seriously flawed or broken. Also, it should be mentioned that some cases were left outside the scope of this project just because there's no bulletproof documentary evidence to support them (but that doesn't mean that students were not affected by those cases)
 
 
 ## List of cases
@@ -221,16 +221,20 @@ Update from June 2021: Actually, during the 2020-21 academic year the situation 
 
 ---
 
-### Unreliable IT infrastructure
+### Unreliable UOL software infrastructure
 		
-**Date**: 2021
+**Date**: February - May 2021
 	
 **Severity**: High  
 
-**Number of students affected**: 10+  
+**Number of students affected**: >10  
 	
-**Description**: work in progress   
+**Description**: 
+1. During 2020-21 academic year the registration period was extended till March 01, 2021. Among other things this means that students had to pay for their registered modules until this date. It turned out that UOL payment system was malfunctioning (unexpectedly for some of the students) at the end of the registration period. Some students’ credit/debit card payments were rejected without a reason. The official UOL message board recommendation was to just fill in the payment form again and correct the errors. According to some evidence the problem was at UOL’s side, particularly, incorrect/absent queries to 3DSecure system during online transactions. Because of these payment issues students had to search for alternative ways to pay for their study, filling inquiries, writing forum posts - all this under the time pressure, as the registration window was closing. Some of the students had their inquiries resolved days after the registration closed. We are not aware of the facts of registration failure due to aforementioned problem although, this has definitely caused an unnecessary stress for many students.
 
+2. May 2021 examinations were held online (due to COVID-19 pandemic). Examination duration range was from 2h 45min to 3h 30min depending on the module. During the exam students were expected to log in to VLE (virtual learning environment), download the exam paper and upload their work before the examination time is over. Some students were reporting different VLE software issues during the examination. For example, in many cases VLE button was not available from the main [UOL portal page](https://my.londoninternational.ac.uk). In some cases there was an [uninformative error message](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/images/vle_error1.png) during the uploading process. Some students were not able to upload their work in time because of these technical issues and had to fill in official inquiries. We are unaware of the results of those inquiries at the moment.
+
+One possible explanation for these software issues is that aforementioned software wasn't tested properly (including black-box testing and stress testing).
 	
 **Kanban status**: Backlog  
 	
