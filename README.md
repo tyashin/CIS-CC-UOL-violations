@@ -19,7 +19,7 @@
 
 
 ## About this project
-*Site last updated: June 24, 2021*
+*Site last updated: July 3, 2021*
 
 This project is maintained by current students of Goldsmiths, University of London [BSc 'Computing and information systems'](https://web.archive.org/web/20191101125948/https://london.ac.uk/courses/computing-and-information-systems) and [BSc 'Creative computing'](https://web.archive.org/web/20190506192952/https://london.ac.uk/courses/creative-computing)  international online programs (CIS/CC, for short). We are tracing university administration violations of their own policies, agreements and common sense expectations.
 
@@ -213,7 +213,25 @@ Update from June 2021: Actually, during the 2020-21 academic year the situation 
 
 **Number of students affected**: all the students  
 	
-**Description**: work in progress   
+**Description**: 
+
+(Note: this is not a violation of UOL policies but instead it's rather serious flaw in CIS/CC programmes structure.)
+
+According to Programme specification ([official link](https://computing.elearning.london.ac.uk/pluginfile.php/75243/mod_resource/content/1/prog-spec-comp-2020-21.pdf) / [mirror](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/prog-spec-comp-2020-21.pdf), p.20) UOL provides two types of feedback on students' courseworks and exams:
+
+
+1. "Past examination papers, as well as examiners’ commentaries on past examinations providing generic feedback on assessment, are updated annually..." As this feedback is generic in nature, it doesn't cover many students' individual mistakes. Also, it's only becomes available one year after the exams, when previous academic year is long gone and students don't remember much from their examination papers.
+2. "Detailed individual feedback is currently provided for coursework assignments in three courses." This phrase means that 3 out of 14 courses will have individual feedback attached to graded courseworks. This rule is not strictly followed, as some students report the lack of this promised feedback on their courseworks.
+	
+
+Students almost never know where exactly they lost their marks. In case the student does not agree with the examination/coursework results, he can not dispute them on academic grounds. Only administrative recheck (for additional price) is allowed (General regulations ([official link](https://london.ac.uk/sites/default/files/regulations/progregs-general-2020-2021.pdf) / [mirror](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/progregs-general-2020-2021.pdf), p.17). 
+
+Interestingly enough, UOL provides coursework grades distribution pie charts annually, while the examination pie charts are not provided. As the examinations are responsible for 80% of the final grade for each course (except the Final Project), those pie charts would be much more valuable from the feedback pespective.
+
+Because of non-transparent nature of exams/courseworks grading it's almost impossible to documentary prove some of the suspected UOL violations (e.g. unfair/erroneous grading).
+
+It has become a common knowledge that feedback is one of the keys to successfull learning, while the lack of feedback severely impaires student's progress and motivation. From this point of view, aforementioned types of feedback, that UOL provides, is far from normal educational practices. Being asked about this, Programmes Director prefered to defend quite unprofessional point of view, according to which this level of feedback is enough for the students.
+
 
 **Kanban status**: Backlog  	
 	
