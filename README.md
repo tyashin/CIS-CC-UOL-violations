@@ -10,10 +10,8 @@
 	- [2020-21 academic year coursework assignments were published too late without delaying the deadlines](#2020-21-academic-year-coursework-assignments-were-published-too-late-without-delaying-the-deadlines) 
 	- [Most of the study materials are obsolete](#most-of-the-study-materials-are-obsolete) 
 	- [University slow response to students' questions/inquiries](#university-slow-response-to-students-questionsinquiries) 
-	- [CO2226 coursework 1/2021 was not adjusted proportionate to reduced time frame](#CO2226-coursework-12021-was-not-adjusted-proportionate-to-reduced-time-frame) 
 	- [Lack of feedback on courseworks and exams](#lack-of-feedback-on-courseworks-and-exams) 
 	- [Unreliable UOL software infrastructure](#unreliable-uol-software-infrastructure) 
-
 
 - [How to contribute (will open 'How-to' page)](https://github.com/tyashin/CIS-CC-UOL-violations/blob/master/how_to.md)
 
@@ -110,12 +108,14 @@ Being asked about the explicit marking scheme for this new reduced type of cours
 
 > Examiners will be expecting less detail, proportionate to the reduction in time available, not partially-completed submissions. Note that we have also adjusted coursework where detailed work is required. 
 
-it was already too late, in our opinion, as the students should have been in the middle of their work by then. Also, it could be proved that at least one of the assignments (CO2226 coursework) [was not adjusted](https://uolviolationstracker.web.app/#/single-case/6) according to reduced time available. After the interim grades for Coursework 1 were published in March 2021 it became clear (but it's quite hard to prove it documentary) that at least some of the grades were also not adjusted.
+it was already too late, in our opinion, as the students should have been in the middle of their work by then.
 
 This is a mitigating circumstance by definition: 
 > Mitigating circumstances are any serious circumstances beyond your control which may have adversely affected your academic performance. (General regulations, p.17 ([official link](https://london.ac.uk/sites/default/files/regulations/progregs-general-2020-2021.pdf) / [mirror](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/progregs-general-2020-2021.pdf)) 
 
 Being asked if the students could treat this as a mitigating circumstance and, therefore, hand over their courseworks later, Dr. Maggie Cooper refused to count it as a mit.circ.
+
+Also, it could be proved that at least one of the assignments (CO2226 coursework) was not adjusted according to reduced time available. You can compare coursework assignments for [2018-19](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/CO2226_CW1_2018-19.pdf),  [2019-20](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/CO2226_CW1_2019-20.pdf) and  [2020-21](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/CO2226_CW1_2020-21.pdf) yourself and see that neither the structure, nor the level of difficulty have changed. After the interim grades for Coursework 1 were published in March 2021 a few students were complaining that at least some of the grades were also not adjusted properly (unfortunately, it's quite hard to prove this case documentary).
 
 January 29, 2021 students have filled at least one [complaint letter](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/complaints/UOL_Complaint_Letter_01-29-2021.pdf). March 10, 2021 (1.5 months later) UOL [responded](https://github.com/tyashin/CIS-CC-UOL-violations/blob/master/complaints/Complaint_Letter_response_10-03-2021.pdf) to this complaint, once again stating that all of its actions were justified and necessitated.
 
@@ -188,22 +188,6 @@ Update from June 2021: Actually, during the 2020-21 academic year the situation 
 **Status change date**: 01 February 2021  
 
 --- 
-	
-### CO2226 coursework 1/2021 was not adjusted proportionate to reduced time frame
-		
-**Date**: 23 December 2020  
-	
-**Severity**: Medium  
-
-**Number of students affected**: 10+  
-	
-**Description**: work in progress 
-	
-**Kanban status**: Backlog  
-	
-**Status change date**: 16 June 2021  
-
----
 
 ### Lack of feedback on courseworks and exams
 		
