@@ -10,18 +10,16 @@
 	- [2020-21 academic year coursework assignments were published too late without delaying the deadlines](#2020-21-academic-year-coursework-assignments-were-published-too-late-without-delaying-the-deadlines) 
 	- [Most of the study materials are obsolete](#most-of-the-study-materials-are-obsolete) 
 	- [University slow response to students' questions/inquiries](#university-slow-response-to-students-questionsinquiries) 
-	- [CO2226 coursework 1/2021 was not adjusted proportionate to reduced time frame](#CO2226-coursework-12021-was-not-adjusted-proportionate-to-reduced-time-frame) 
 	- [Lack of feedback on courseworks and exams](#lack-of-feedback-on-courseworks-and-exams) 
 	- [Unreliable UOL software infrastructure](#unreliable-uol-software-infrastructure) 
-
 
 - [How to contribute (will open 'How-to' page)](https://github.com/tyashin/CIS-CC-UOL-violations/blob/master/how_to.md)
 
 
 ## About this project
-*Site last updated: July 3, 2021*
+*Site last updated: July 17, 2021*
 
-This project is maintained by current students of Goldsmiths, University of London [BSc 'Computing and information systems'](https://web.archive.org/web/20191101125948/https://london.ac.uk/courses/computing-and-information-systems) and [BSc 'Creative computing'](https://web.archive.org/web/20190506192952/https://london.ac.uk/courses/creative-computing)  international online programs (CIS/CC, for short). We are tracing university administration violations of their own policies, agreements and common sense expectations.
+This project is maintained by current students of University of London [BSc 'Computing and information systems'](https://web.archive.org/web/20191101125948/https://london.ac.uk/courses/computing-and-information-systems) and [BSc 'Creative computing'](https://web.archive.org/web/20190506192952/https://london.ac.uk/courses/creative-computing)  international online programs (CIS/CC, for short). We are tracing university administration violations of their own policies, agreements and common sense expectations.
 
 The reason for creating this project is the current situation with CIS/CC programs. A few years ago CIS/CC were average quality distance/online programs, generally worth time and money the students had spent on them. 
 
@@ -69,7 +67,7 @@ We are planning to employ both official complaint procedure and this project pag
 
 > The withdrawal of the programmes will not affect the quality or nature of your studies in any way. Both Goldsmiths, University of London and the University of London remain committed to you and all other students studying the BSc Computing and Information Systems programme or the BSc in Creative Computing. We will continue to ensure that the programmes are delivered to the usual high academic standard throughout the notice period. 
 
-Aside from the fact that the first paragraph of this letter contradicts with the second paragraph, the cited text also means that some of the students, probably, faced the situation when they would no longer be able to successfully complete their BSc program. CIS/CC Programme specification ([official link](https://computing.elearning.london.ac.uk/pluginfile.php/75243/mod_resource/content/1/prog-spec-comp-2020-21.pdf) / [mirror](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/prog-spec-comp-2020-21.pdf)) (2020, p.6) has explicit values for the maximum and minimum periods of registration for BSc programmes:
+Aside from the fact that the first paragraph of this letter contradicts with the second paragraph, the cited text also means that some of the students, probably, faced the situation when they would no longer be able to successfully complete their BSc program. CIS/CC [Programme specification](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/prog-spec-comp-2020-21.pdf)) (2020, p.6) has explicit values for the maximum and minimum periods of registration for BSc programmes:
 
 ![Registration periods](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/images/RegistrationPeriods.jpg)  
 
@@ -106,16 +104,18 @@ The university decided not to change any of coursework deadlines. This situation
 In December 2020 these matters were discussed with Dr. Maggie Cooper at the 'Student cafe' UOL forum. She told the students that coursework deadlines wouldn’t be delayed. Instead of this, she said that
 > Reducing the time available will mean a corresponding reduction in the level of work students will be able to produce, and examiners will expect this and adjust the marking accordingly.   
 
-Being asked about the explicit marking scheme for this new reduced type of courseworks, she refused to provide any.  A quick note: assessment criteria for the regular courseworks and examinations are available to students at page 31 of Programme regulations 2020-21 ([official link](https://london.ac.uk/sites/default/files/progregs-computing-workexp-new-2020-21.pdf) / [mirror](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/progregs-computing-workexp-new-2020-21.pdf)). An absence of explicit criteria opens the door to misinterpretation and can adversely affect students' grades. Although, later, 23rd of December 2020, [Kärt Luik, Programme Manager](https://www.linkedin.com/in/k%C3%A4rt-luik-606603179/?originalSubdomain=uk) posted a message with a hint about new marking criteria: 
+Being asked about the explicit marking scheme for this new reduced type of courseworks, she refused to provide any.  A quick note: assessment criteria for the regular courseworks and examinations are available to students at page 31 of [Programme regulations 2020-21](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/progregs-computing-workexp-new-2020-21.pdf)). An absence of explicit criteria opens the door to misinterpretation and can adversely affect students' grades. Although, later, 23rd of December 2020, [Kärt Luik, Programme Manager](https://www.linkedin.com/in/k%C3%A4rt-luik-606603179/?originalSubdomain=uk) posted a message with a hint about new marking criteria: 
 
 > Examiners will be expecting less detail, proportionate to the reduction in time available, not partially-completed submissions. Note that we have also adjusted coursework where detailed work is required. 
 
-it was already too late, in our opinion, as the students should have been in the middle of their work by then. Also, it could be proved that at least one of the assignments (CO2226 coursework) [was not adjusted](https://uolviolationstracker.web.app/#/single-case/6) according to reduced time available. After the interim grades for Coursework 1 were published in March 2021 it became clear (but it's quite hard to prove it documentary) that at least some of the grades were also not adjusted.
+it was already too late, in our opinion, as the students should have been in the middle of their work by then.
 
 This is a mitigating circumstance by definition: 
-> Mitigating circumstances are any serious circumstances beyond your control which may have adversely affected your academic performance. (General regulations, p.17 ([official link](https://london.ac.uk/sites/default/files/regulations/progregs-general-2020-2021.pdf) / [mirror](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/progregs-general-2020-2021.pdf)) 
+> Mitigating circumstances are any serious circumstances beyond your control which may have adversely affected your academic performance. ([General regulations](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/progregs-general-2020-2021.pdf), p.17) 
 
 Being asked if the students could treat this as a mitigating circumstance and, therefore, hand over their courseworks later, Dr. Maggie Cooper refused to count it as a mit.circ.
+
+Also, it could be proved that at least one of the assignments (CO2226 coursework) was not adjusted according to reduced time available. You can compare coursework assignments for [2018-19](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/CO2226_CW1_2018-19.pdf),  [2019-20](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/CO2226_CW1_2019-20.pdf) and  [2020-21](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/CO2226_CW1_2020-21.pdf) yourself and see that neither the structure, nor the level of difficulty have changed. After the interim grades for Coursework 1 were published in March 2021 a few students were complaining that at least some of the grades were also not adjusted properly.
 
 January 29, 2021 students have filled at least one [complaint letter](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/complaints/UOL_Complaint_Letter_01-29-2021.pdf). March 10, 2021 (1.5 months later) UOL [responded](https://github.com/tyashin/CIS-CC-UOL-violations/blob/master/complaints/Complaint_Letter_response_10-03-2021.pdf) to this complaint, once again stating that all of its actions were justified and necessitated.
 
@@ -188,22 +188,6 @@ Update from June 2021: Actually, during the 2020-21 academic year the situation 
 **Status change date**: 01 February 2021  
 
 --- 
-	
-### CO2226 coursework 1/2021 was not adjusted proportionate to reduced time frame
-		
-**Date**: 23 December 2020  
-	
-**Severity**: Medium  
-
-**Number of students affected**: 10+  
-	
-**Description**: work in progress 
-	
-**Kanban status**: Backlog  
-	
-**Status change date**: 16 June 2021  
-
----
 
 ### Lack of feedback on courseworks and exams
 		
@@ -217,20 +201,19 @@ Update from June 2021: Actually, during the 2020-21 academic year the situation 
 
 (Note: this is not a violation of UOL policies but instead it's rather serious flaw in CIS/CC programmes structure.)
 
-According to Programme specification ([official link](https://computing.elearning.london.ac.uk/pluginfile.php/75243/mod_resource/content/1/prog-spec-comp-2020-21.pdf) / [mirror](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/prog-spec-comp-2020-21.pdf), p.20) UOL provides two types of feedback on students' courseworks and exams:
+According to [Programme specification](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/prog-spec-comp-2020-21.pdf), p.20) UOL provides two types of feedback on students' courseworks and exams:
 
 
-1. "Past examination papers, as well as examiners’ commentaries on past examinations providing generic feedback on assessment, are updated annually..." As this feedback is generic in nature, it doesn't cover many students' individual mistakes. Also, it's only becomes available one year after the exams, when previous academic year is long gone and students don't remember much from their examination papers.
+1. "Past examination papers, as well as examiners’ commentaries on past examinations providing generic feedback on assessment, are updated annually..." As this feedback is generic in nature, it doesn't cover many students' individual mistakes. Also, it only becomes available one year after the exams, when previous academic year is long gone and students don't remember much from their examination papers.
 2. "Detailed individual feedback is currently provided for coursework assignments in three courses." This phrase means that 3 out of 14 courses will have individual feedback attached to graded courseworks. This rule is not strictly followed, as some students report the lack of this promised feedback on their courseworks.
-	
 
-Students almost never know where exactly they lost their marks. In case the student does not agree with the examination/coursework results, he can not dispute them on academic grounds. Only administrative recheck (for additional price) is allowed (General regulations ([official link](https://london.ac.uk/sites/default/files/regulations/progregs-general-2020-2021.pdf) / [mirror](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/progregs-general-2020-2021.pdf), p.17). 
+Students almost never know where exactly they lost their marks. In case the student does not agree with the examination/coursework results, he can not dispute them on academic grounds. Only administrative recheck (for additional price) is allowed ([General regulations](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/documents/progregs-general-2020-2021.pdf), p.17). 
 
 Interestingly enough, UOL provides coursework grades distribution pie charts annually, while the examination pie charts are not provided. As the examinations are responsible for 80% of the final grade for each course (except the Final Project), those pie charts would be much more valuable from the feedback pespective.
 
-Because of non-transparent nature of exams/courseworks grading it's almost impossible to documentary prove some of the suspected UOL violations (e.g. unfair/erroneous grading).
+Because of non-transparent nature of exams/courseworks grading it's almost impossible to obtain documented proves for some cases (e.g. unfair/erroneous grading).
 
-It has become a common knowledge that feedback is one of the keys to successfull learning, while the lack of feedback severely impaires student's progress and motivation. From this point of view, aforementioned types of feedback, that UOL provides, is far from normal educational practices. Being asked about this, Programmes Director prefered to defend quite unprofessional point of view, according to which this level of feedback is enough for the students.
+It has become a common knowledge that feedback is one of the keys to successfull learning, while the lack of feedback severely impaires student's progress and motivation. From this point of view, aforementioned UOL feedback policy is far from normal educational practices. Being asked about this, Programmes Director prefered to defend quite unprofessional point of view, according to which this level of feedback is enough for the students.
 
 
 **Kanban status**: Backlog  	
@@ -250,7 +233,7 @@ It has become a common knowledge that feedback is one of the keys to successfull
 **Description**: 
 1. During 2020-21 academic year the registration period was extended till March 01, 2021. Among other things this means that students had to pay for their registered modules until this date. It turned out that UOL payment system was malfunctioning (unexpectedly for some of the students) at the end of the registration period. Some students’ credit/debit card payments were rejected without a reason. The official UOL message board recommendation was to just fill in the payment form again and correct the errors. According to some evidence the problem was at UOL’s side, particularly, incorrect/absent queries to 3DSecure system during online transactions. Because of these payment issues students had to search for alternative ways to pay for their study, filling inquiries, writing forum posts - all this under the time pressure, as the registration window was closing. Some of the students had their inquiries resolved days after the registration closed. We are not aware of the facts of registration failure due to aforementioned problem although, this has definitely caused an unnecessary stress for many students.
 
-2. May 2021 examinations were held online (due to COVID-19 pandemic). Examination duration range was from 2h 45min to 3h 30min depending on the module. During the exam students were expected to log in to VLE (virtual learning environment), download the exam paper and upload their work before the examination time is over. Some students were reporting different VLE software issues during the examination. For example, in many cases VLE button was not available from the main [UOL portal page](https://my.londoninternational.ac.uk). In some cases there was an [uninformative error message](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/images/vle_error1.png) during the uploading process. Some students were not able to upload their work in time because of these technical issues and had to fill in official inquiries. We are unaware of the results of those inquiries at the moment.
+2. May 2021 examinations were held online (due to COVID-19 pandemic). Examination duration range was from 2h 45min to 3h 30min depending on the module. During the exam students were expected to log in to VLE (virtual learning environment), download the exam paper and upload their work before the examination time is over. Some students were reporting different VLE software issues during the examination. For example, in many cases VLE button was not available from the main [UOL portal page](https://my.london.ac.uk). In some cases there was an [uninformative error message](https://raw.githubusercontent.com/tyashin/CIS-CC-UOL-violations/master/images/vle_error1.png) during the uploading process. Some students were not able to upload their work in time because of these technical issues and had to fill in official inquiries. We are unaware of the results of those inquiries at the moment.
 
 One possible explanation for these software issues is that aforementioned software wasn't tested properly (including black-box testing and stress testing).
 	
