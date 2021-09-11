@@ -17,7 +17,7 @@
 
 
 ## About this project
-*Site last updated: September 11, 2021*
+*Site last updated: July 17, 2021*
 
 This project is maintained by current students of University of London [BSc 'Computing and information systems'](https://web.archive.org/web/20191101125948/https://london.ac.uk/courses/computing-and-information-systems) and [BSc 'Creative computing'](https://web.archive.org/web/20190506192952/https://london.ac.uk/courses/creative-computing)  international online programs (CIS/CC, for short). We are tracing university administration violations of their own policies, agreements and common sense expectations.
 
@@ -211,7 +211,7 @@ Students almost never know where exactly they lost their marks. In case the stud
 
 Interestingly enough, UOL provides coursework grades distribution pie charts annually, while the examination pie charts are not provided. As the examinations are responsible for 80% of the final grade for each course (except the Final Project), those pie charts would be much more valuable from the feedback pespective.
 
-Because of non-transparent nature of exams/courseworks grading it's almost impossible to obtain documented proves for some cases (e.g. unfair/erroneous grading.) Being accidentally caught, UOL staff will try not to admit the fact of unfair/erroneous grading but rather prefers lying and feigning ignorance to an extent needed to cover everything up (we have one documented case of such kind, although, it contains sensitive personal information not to be publicly disclosed.)
+Because of non-transparent nature of exams/courseworks grading it's almost impossible to obtain documented proves for some cases (e.g. unfair/erroneous grading).
 
 It has become a common knowledge that feedback is one of the keys to successfull learning, while the lack of feedback severely impaires student's progress and motivation. From this point of view, aforementioned UOL feedback policy is far from normal educational practices. Being asked about this, Programmes Director prefered to defend quite unprofessional point of view, according to which this level of feedback is enough for the students.
 
