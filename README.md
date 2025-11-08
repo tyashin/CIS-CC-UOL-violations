@@ -19,6 +19,11 @@
 ## About this project
 *Site last updated: July 17, 2021*
 
+> **Archived Notice (November 8, 2025)**  
+> More than four years have passed since this site was last updated (July 17, 2021). The author no longer has access to current information regarding the University of London’s policies, program status, or administrative practices. As such, this project is now archived and maintained in *read-only* mode for historical reference.  
+>   
+> We sincerely wish all current and future students the very best in their academic journeys.
+
 This project is maintained by current students of University of London [BSc 'Computing and information systems'](https://web.archive.org/web/20191101125948/https://london.ac.uk/courses/computing-and-information-systems) and [BSc 'Creative computing'](https://web.archive.org/web/20190506192952/https://london.ac.uk/courses/creative-computing)  international online programs (CIS/CC, for short). We are tracing university administration violations of their own policies, agreements and common sense expectations.
 
 The reason for creating this project is the current situation with CIS/CC programs. A few years ago CIS/CC were average quality distance/online programs, generally worth time and money the students had spent on them. 
